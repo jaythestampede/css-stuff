@@ -26,7 +26,7 @@ body {
                 -13px -13px 20px #ffffff;
 }
 .logo {
-    background:url("./assets/SS-Logo.png");
+    background-image:url("../Neumorphic-Login-Form/assets/SS-Logo.png");
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -68,12 +68,98 @@ body {
     background: none;
     font-size: 20px;
     color: #555;
+    text-align: center;
     padding: 20px 10px 20px 5px;
 }
 
 .username, .password {
     margin-bottom: 30px;
     border-radius: 25px;
+    text-align: center;
     box-shadow: inset 8px 8px 8px #cbced1,
                 inset -8px -8px 8px #ffffff;
+}
+
+.fields i {
+    height: 22px;
+    margin: 0 10px -3 25px;
+}
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 50%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    /* font-family: ""; */
+    color: #fff;
+    text-align: center;
+    background: #79dbe85f;
+    box-shadow:  3px 3px 8px #b1b1b1,
+                 -3px -3px 8px #ffffff;
+    transition: .3s;
+}
+.signin-button:hover {
+    background: #1c60e75f;
+}
+.signin-button:active {
+    background: #2b2b2b5f;
+}
+
+.wrapper .remember-btn {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-btn label input {
+    accent-color: #212d8c;
+    margin-right: 3px;
+    margin-top: 15px;
+}
+
+.remember-btn a {
+    margin-left: 25%;
+    color: #1c60e75f;
+    text-decoration: none;
+}
+
+.remember-btn a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #1c60e75f;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 25%;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
 }
